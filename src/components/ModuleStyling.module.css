@@ -1,0 +1,154 @@
+/* DashboardComponent */
+.dashboard {
+  display:flex;
+  justify-content: center;
+  margin-top:50px;
+}
+
+.input {
+  width:91%;
+  margin-bottom:10px;
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgba(255, 255, 255, 0.548);
+  border-radius:5px;
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  cursor: auto; 
+}
+
+.add {
+  width: 45%;
+  margin-top: 20px;
+  border: 1px solid rgb(68, 216, 125);
+  border-radius:5px;
+  background-color: rgb(68, 216, 125);
+  color: rgb(32, 32, 32);
+  padding: 10px;
+  text-align: center;
+  font-size: 15px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.remove {
+  width: 45%;
+  margin: 20px 0px 30px 20px;
+  border: 1px solid rgb(223, 88, 88);
+  border-radius:5px;
+  background-color: rgb(223, 88, 88);
+  color: rgb(32, 32, 32);
+  padding: 10px;
+  text-align: center;
+  font-size: 15px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+/* CardComponent */
+.card {
+  height:100%;
+  position: relative;
+  margin: 20px;
+  width: 250px;
+  background: linear-gradient(#E96874, #6E3663, #2B0830);
+  border-radius: 2px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  color: #fff;
+  padding: 30px;
+}
+
+/* NavBarComponent */
+.navbar {  
+  background-color: rgb(70, 70, 70);
+  color: white;
+  width: 100%;
+  margin:0;
+  padding:0;
+}
+
+.navList {
+  text-align:center;
+  justify-content: center;
+}
+
+.links {
+  margin:10px;
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 16px;
+  padding-left: 50px;
+  padding-right:50px;
+  font-size:35px;
+}
+
+.links:hover {
+  background:rgb(255, 146, 146);
+  color:rgb(70, 70, 70);
+  cursor: pointer;
+}
+
+.active {
+  background:rgb(255, 146, 146);
+  color: rgb(70, 70, 70);
+}
+
+/* UserComponent */
+.toggleButton {
+  width:100%;
+  margin:20px;
+  margin-left:0;
+  border: 1px solid rgba(255, 255, 255, 0.548);
+  border-radius:5px;
+  background-color: rgba(255, 204, 204, 0);
+  color: #fff;
+  padding: 10px 10px;
+  font-size: 16px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.toggleButton:hover {
+  width:100%;
+  margin:20px;
+  margin-left:0;
+  border: 1px solid rgba(70, 70, 70, 0.548);
+  border-radius:5px;
+  background:rgb(255, 146, 146);
+  color:rgb(70, 70, 70);
+  cursor: pointer;
+  padding: 10px 10px;
+  text-transform: uppercase;
+}
+
+/* Login */
+.login {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom:10px;
+  border: 1px solid rgb(68, 216, 125);
+  border-radius:5px;
+  background-color: rgb(68, 216, 125);
+  color: rgb(32, 32, 32);
+  padding: 10px;
+  text-align: center;
+  font-size: 15px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.button {
+  margin-top:10px;
+  border: 1px solid rgba(255, 255, 255, 0.548);
+  border-radius:5px;
+  background-color: rgba(255, 204, 204, 0);
+  color: #fff;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
