@@ -24,6 +24,7 @@ class UserScreen extends Component {
 	componentDidMount() {
 		const userID = this.props.match.params.id;
 
+		if (userID) {
 		fetch(`http://api.softhouse.rocks/users/${userID}`, {
 			method: 'GET'
 		})
@@ -33,7 +34,8 @@ class UserScreen extends Component {
 				userInfo: data
 			})
 		})
-		.catch(error => console.log(error))
+		.catch(error => console.log(error))	
+		}
 	}
 
 	//Toggle funktion som sedan används för att visa/gömma adressinfo.
